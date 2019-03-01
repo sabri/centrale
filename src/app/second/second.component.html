@@ -1,0 +1,11 @@
+<div [style.backgroundColor]="colour">
+  bonjour
+</div>
+<input type="text" class="form-control" [(ngModel)]="colour">
+contnu de ce variable ={{colour}}
+
+<div>
+  <app-carte [couleur]="'red'" (events)="sabri($clc)"></app-carte>
+  <app-carte [couleur]="'red'"></app-carte>
+
+</div>
